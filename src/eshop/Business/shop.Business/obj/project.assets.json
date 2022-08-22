@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "eshop.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "eshop.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eshop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.Data.dll": {}
+        }
+      },
+      "eshop.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eshop.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eshop.Data/1.0.0": {
+      "type": "project",
+      "path": "../../Data/eshop.Data/eshop.Data.csproj",
+      "msbuildProject": "../../Data/eshop.Data/eshop.Data.csproj"
+    },
+    "eshop.Entities/1.0.0": {
+      "type": "project",
+      "path": "../../Common/eshop.Entities/eshop.Entities.csproj",
+      "msbuildProject": "../../Common/eshop.Entities/eshop.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "eshop.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\turka\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Turkcell\\Architectural Patterns\\Group 1\\src\\eshop\\Business\\shop.Business\\shop.Business.csproj",
+      "projectName": "shop.Business",
+      "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Turkcell\\Architectural Patterns\\Group 1\\src\\eshop\\Business\\shop.Business\\shop.Business.csproj",
+      "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Turkcell\\Architectural Patterns\\Group 1\\src\\eshop\\Business\\shop.Business\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\turka\\source\\repos\\Kurumsal\\Turkcell\\Architectural Patterns\\Group 1\\src\\eshop\\Data\\eshop.Data\\eshop.Data.csproj": {
+              "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Turkcell\\Architectural Patterns\\Group 1\\src\\eshop\\Data\\eshop.Data\\eshop.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
