@@ -100,13 +100,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "eshop.Data": "1.0.0"
+          "eshop.Data": "1.0.0",
+          "shop.DTOs": "1.0.0"
         },
         "compile": {
           "bin/placeholder/shop.Business.dll": {}
         },
         "runtime": {
           "bin/placeholder/shop.Business.dll": {}
+        }
+      },
+      "shop.DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/shop.DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/shop.DTOs.dll": {}
         }
       }
     }
@@ -251,6 +262,11 @@
       "type": "project",
       "path": "../../Business/shop.Business/shop.Business.csproj",
       "msbuildProject": "../../Business/shop.Business/shop.Business.csproj"
+    },
+    "shop.DTOs/1.0.0": {
+      "type": "project",
+      "path": "../../Business/shop.DTOs/shop.DTOs.csproj",
+      "msbuildProject": "../../Business/shop.DTOs/shop.DTOs.csproj"
     }
   },
   "projectFileDependencyGroups": {

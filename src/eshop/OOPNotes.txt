@@ -1,0 +1,59 @@
+﻿           
+           Neden OOP Kullanmak, mimari için iyidir?
+           /*
+             * Reusability (DRY): Bir nesne uygulama içinde yeniden kullanılabilir....
+             * Scalability: Uygulama büyüyebilir -> küçülebilir.
+             * Maintanance: Bakımı kolay....
+             * Extensibility: Genişleyebilirlik....
+             */
+
+            /*SOLID */
+
+            Single Responsibilty: Bir nesnenin sorumluluk alanı (insanların işi gibi....) sadece bir tane olmalı.
+            Open-Closed: Bir nesnenin davranışın geliştirmeye AÇIK değiştirmeye KAPALI olsun.
+            Liskov Substution: Bir derived class'ın nesnesi ile base class'ın nesnesi yer değiştirilebilir olmalı. Alt sınıf üstün değerlerini DEĞİŞTİREMEZ!
+            Interface Segregation: Bir nesne, interface'den gelen her metodu kullanmalıdır. Ya da bir metot illaki bir interface'de tanımlı olmak zorunda değildir.
+            Dependency Inversion: 
+
+
+            --------------------------------------------
+              Yemek
+              Pırasa extend Yemek
+
+            Asci
+               +YemekYap(Yemek)
+
+
+            Asci a = new Asci();
+            a.YemekYap(pirasa)
+            a.YemekYap(baklava)
+
+            asci.YemekYap(Pirasa p)
+
+            Dikdörtgen 
+               -En 
+               -Boy
+               +AlanHesapla
+
+
+            Kare 
+                -En 
+               +AlanHesapla
+
+            +Dikdörtgen Create 
+               return Kare
+
+               
+               var dortgen = Create()
+               dortgen.En = 5
+               dortgen.Boy = 3
+               dortgen.AlanHesapla();
+
+
+
+
+
+
+
+
+

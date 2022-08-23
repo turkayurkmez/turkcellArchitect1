@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eshop.Entities
+namespace shop.DTOs.Responses
 {
-    public class Product
+    public class ProductListResponse
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public bool IsActive { get; set; }
     }
 }
