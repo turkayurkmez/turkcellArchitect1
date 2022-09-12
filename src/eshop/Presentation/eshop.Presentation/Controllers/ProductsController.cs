@@ -7,6 +7,7 @@ namespace eshop.Presentation.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        private IProductService productService;
         [HttpGet]
         public IActionResult Get()
         {

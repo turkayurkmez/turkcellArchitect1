@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eshop.Data.Repositories
 {
-    internal class EFProductRepository
+    public class EFProductRepository
     {
     }
 }

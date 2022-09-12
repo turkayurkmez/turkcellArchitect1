@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eshop.Data.Repositories
 {
-    internal interface IRepository
+    public interface IRepository
     {
     }
 }

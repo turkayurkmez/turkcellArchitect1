@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using shop.DTOs.Responses;
 
 namespace shop.Business
 {
-    internal interface IProductService
+    public interface IProductService
     {
+        IList<ProductListResponse> GetProducts();
     }
 }

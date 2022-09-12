@@ -19,6 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.Business", "Business\s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eshop.Presentation", "Presentation\eshop.Presentation\eshop.Presentation.csproj", "{300BB1BD-158B-4DAD-B7BE-13B5CD116477}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{26874FD3-A7F1-4C3A-AE41-BBE828B0E969}"
+	ProjectSection(SolutionItems) = preProject
+		OOPNotes.txt = OOPNotes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.DTOs", "Business\shop.DTOs\shop.DTOs.csproj", "{F8F28CCD-B714-49C8-A627-A7DCB20E758E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +48,10 @@ Global
 		{300BB1BD-158B-4DAD-B7BE-13B5CD116477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{300BB1BD-158B-4DAD-B7BE-13B5CD116477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{300BB1BD-158B-4DAD-B7BE-13B5CD116477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F28CCD-B714-49C8-A627-A7DCB20E758E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F28CCD-B714-49C8-A627-A7DCB20E758E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F28CCD-B714-49C8-A627-A7DCB20E758E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F28CCD-B714-49C8-A627-A7DCB20E758E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +61,7 @@ Global
 		{A9DBBEA4-750A-4FCD-A680-C6507E44E38B} = {3206E17E-BCCD-4378-9C2F-7FAE852CCBB4}
 		{A2DAC178-3BB9-4E7F-9137-5A08BFD75DD8} = {FD3DEC23-C2E5-4135-8148-BB7AC88526CC}
 		{300BB1BD-158B-4DAD-B7BE-13B5CD116477} = {BAB19C9F-91AC-4BF9-8153-E25E71B9853B}
+		{F8F28CCD-B714-49C8-A627-A7DCB20E758E} = {FD3DEC23-C2E5-4135-8148-BB7AC88526CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A7C303E-0778-454D-A0E9-568E8F68F9B5}
